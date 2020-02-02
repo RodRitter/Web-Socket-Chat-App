@@ -17,7 +17,7 @@ export default class App extends React.Component {
 
         <div className='external-links'>
           <a href='http://www.ritter.co.za/'><FontAwesomeIcon icon={faArrowLeft} /> Back to Portfolio</a>
-          <a href='/' target='_blank'> Open another Chat instance <FontAwesomeIcon icon={faArrowRight} /></a>
+          <a href='/lite-chat' target='_blank'> Open another Chat instance <FontAwesomeIcon icon={faArrowRight} /></a>
         </div>
 
         <div className='chat'>
