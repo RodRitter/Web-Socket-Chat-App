@@ -1,6 +1,6 @@
 import React from 'react'
 import socketIOClient from "socket.io-client";
-const CHAT_API = 'https://porfolio-chat-app-server.herokuapp.com/'
+const CHAT_API = 'http://64.227.44.131:3333/'
 
 export default function withSocket(WrappedComponent, selectData) {
     return class extends React.Component {
