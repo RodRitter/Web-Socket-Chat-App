@@ -10,7 +10,7 @@ export default class Sidebar extends Component {
                     {this.props.users.map((user, index) => {
                         return (
                             <div key={index} className='user'>
-                                <img src='/img/profile.png' alt='Profile' />
+                                <img src='/lite-chat/img/profile.png' alt='Profile' />
                                 <div className='user-name'>{user}</div>
                             </div>
                         )
